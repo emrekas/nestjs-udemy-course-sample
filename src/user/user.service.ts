@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
-import { UserModel } from 'tools/models/user.model';
-import { CreateUserDto } from 'tools/dtos/user/create-user.dto';
-import { UserDto } from 'tools/dtos/user/user.dto';
+import { UserModel } from '../tools/models/user.model';
+import { CreateUserDto } from '../tools/dtos/user/create-user.dto';
+import { UserDto } from '../tools/dtos/user/user.dto';
 
 const result: UserModel[] = [];
 
