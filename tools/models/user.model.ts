@@ -6,6 +6,7 @@ export class UserModel {
     surname: string;
     image: string;
     email: string;
+    birthDate: Date;
     password: string;
     passwordHash: string;
     audit: AuditModel;
